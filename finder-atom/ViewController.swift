@@ -11,11 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
 
     @IBAction func openSystemPreferences(_ sender: AnyObject?) {
-        guard let prefsURL = URL(string: "x-apple.systempreferences:") else {
-            fatalError("Couldn't build prefs URL")
-        }
-
-        NSWorkspace.shared().open(prefsURL)
+        NSWorkspace.shared().open(URL(fileURLWithPath: "/System/Library/PreferencePanes/Extensions.prefPane"))
     }
 
 }
