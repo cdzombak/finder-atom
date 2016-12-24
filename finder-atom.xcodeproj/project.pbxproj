@@ -41,7 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		934800001E0E069000C47386 /* Open in Atom Finder Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open in Atom Finder Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934800001E0E069000C47386 /* Open in Atom Finder Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Open in Atom Finder Extension.app"; path = "Open in Atom for Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934800031E0E069000C47386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934800051E0E069000C47386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		934800071E0E069000C47386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
