@@ -6,7 +6,7 @@ An "Open Directory in Atom" button for your OS X Finder toolbar:
 
 ## Installation
 
-1. Download and decompress [the latest release](https://github.com/cdzombak/finder-atom/releases).
+1. Download and decompress [the latest release](https://github.com/cdzombak/finder-atom/releases/latest).
 2. Copy `Open in Atom for Finder.app` to your `Applications` folder.
 3. Launch the app.
 4. Open System Preferences > Extensions and enable the “Open in Atom Finder Extension”:
