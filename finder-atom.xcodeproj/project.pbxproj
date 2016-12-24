@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		934800041E0E069000C47386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934800031E0E069000C47386 /* AppDelegate.swift */; };
+		934800061E0E069000C47386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934800051E0E069000C47386 /* ViewController.swift */; };
+		934800081E0E069000C47386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 934800071E0E069000C47386 /* Assets.xcassets */; };
+		9348000B1E0E069000C47386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 934800091E0E069000C47386 /* Main.storyboard */; };
+		9348001B1E0E06CB00C47386 /* AtomFinderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9348001A1E0E06CB00C47386 /* AtomFinderExtension.swift */; };
+		9348001F1E0E06CB00C47386 /* Open in Atom Finder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 934800161E0E06CB00C47386 /* Open in Atom Finder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		934800251E0E395A00C47386 /* atom-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 934800241E0E395A00C47386 /* atom-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9348001D1E0E06CB00C47386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9348FFF81E0E069000C47386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 934800151E0E06CB00C47386;
+			remoteInfo = "finder-extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		934800231E0E06CB00C47386 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9348001F1E0E06CB00C47386 /* Open in Atom Finder Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		934800001E0E069000C47386 /* Open in Atom Finder Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open in Atom Finder Extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934800031E0E069000C47386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		934800051E0E069000C47386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		934800071E0E069000C47386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9348000A1E0E069000C47386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9348000C1E0E069000C47386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934800161E0E06CB00C47386 /* Open in Atom Finder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Open in Atom Finder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		934800191E0E06CB00C47386 /* finder_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = finder_extension.entitlements; sourceTree = "<group>"; };
+		9348001A1E0E06CB00C47386 /* AtomFinderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomFinderExtension.swift; sourceTree = "<group>"; };
+		9348001C1E0E06CB00C47386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		934800241E0E395A00C47386 /* atom-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "atom-icon.png"; sourceTree = "<group>"; };
+		93DBCBEC1E0E3E610088ADEF /* finder-atom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "finder-atom.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		934800131E0E06CB00C47386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9348FFFD1E0E069000C47386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		934800011E0E069000C47386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				934800001E0E069000C47386 /* Open in Atom Finder Extension.app */,
+				934800161E0E06CB00C47386 /* Open in Atom Finder Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		934800021E0E069000C47386 /* finder-atom */ = {
+			isa = PBXGroup;
+			children = (
+				934800031E0E069000C47386 /* AppDelegate.swift */,
+				934800051E0E069000C47386 /* ViewController.swift */,
+				934800091E0E069000C47386 /* Main.storyboard */,
+				934800071E0E069000C47386 /* Assets.xcassets */,
+				9348000C1E0E069000C47386 /* Info.plist */,
+				93DBCBEC1E0E3E610088ADEF /* finder-atom.entitlements */,
+			);
+			path = "finder-atom";
+			sourceTree = "<group>";
+		};
+		934800171E0E06CB00C47386 /* finder-extension */ = {
+			isa = PBXGroup;
+			children = (
+				9348001A1E0E06CB00C47386 /* AtomFinderExtension.swift */,
+				934800241E0E395A00C47386 /* atom-icon.png */,
+				9348001C1E0E06CB00C47386 /* Info.plist */,
+				934800191E0E06CB00C47386 /* finder_extension.entitlements */,
+			);
+			path = "finder-extension";
+			sourceTree = "<group>";
+		};
+		9348FFF71E0E069000C47386 = {
+			isa = PBXGroup;
+			children = (
+				934800021E0E069000C47386 /* finder-atom */,
+				934800171E0E06CB00C47386 /* finder-extension */,
+				934800011E0E069000C47386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		934800151E0E06CB00C47386 /* Open in Atom Finder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 934800201E0E06CB00C47386 /* Build configuration list for PBXNativeTarget "Open in Atom Finder Extension" */;
+			buildPhases = (
+				934800121E0E06CB00C47386 /* Sources */,
+				934800131E0E06CB00C47386 /* Frameworks */,
+				934800141E0E06CB00C47386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open in Atom Finder Extension";
+			productName = "finder-extension";
+			productReference = 934800161E0E06CB00C47386 /* Open in Atom Finder Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9348FFFF1E0E069000C47386 /* Open in Atom for Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9348000F1E0E069000C47386 /* Build configuration list for PBXNativeTarget "Open in Atom for Finder" */;
+			buildPhases = (
+				9348FFFC1E0E069000C47386 /* Sources */,
+				9348FFFD1E0E069000C47386 /* Frameworks */,
+				9348FFFE1E0E069000C47386 /* Resources */,
+				934800231E0E06CB00C47386 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9348001E1E0E06CB00C47386 /* PBXTargetDependency */,
+			);
+			name = "Open in Atom for Finder";
+			productName = "finder-atom";
+			productReference = 934800001E0E069000C47386 /* Open in Atom Finder Extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9348FFF81E0E069000C47386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chris Dzombak";
+				TargetAttributes = {
+					934800151E0E06CB00C47386 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9348FFFF1E0E069000C47386 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9348FFFB1E0E069000C47386 /* Build configuration list for PBXProject "finder-atom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9348FFF71E0E069000C47386;
+			productRefGroup = 934800011E0E069000C47386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9348FFFF1E0E069000C47386 /* Open in Atom for Finder */,
+				934800151E0E06CB00C47386 /* Open in Atom Finder Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		934800141E0E06CB00C47386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934800251E0E395A00C47386 /* atom-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9348FFFE1E0E069000C47386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934800081E0E069000C47386 /* Assets.xcassets in Resources */,
+				9348000B1E0E069000C47386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		934800121E0E06CB00C47386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9348001B1E0E06CB00C47386 /* AtomFinderExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9348FFFC1E0E069000C47386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934800061E0E069000C47386 /* ViewController.swift in Sources */,
+				934800041E0E069000C47386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9348001E1E0E06CB00C47386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 934800151E0E06CB00C47386 /* Open in Atom Finder Extension */;
+			targetProxy = 9348001D1E0E06CB00C47386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		934800091E0E069000C47386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9348000A1E0E069000C47386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9348000D1E0E069000C47386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9348000E1E0E069000C47386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		934800101E0E069000C47386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "finder-atom/finder-atom.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				INFOPLIST_FILE = "finder-atom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdz.finder-atom-integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		934800111E0E069000C47386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CODE_SIGN_ENTITLEMENTS = "finder-atom/finder-atom.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				INFOPLIST_FILE = "finder-atom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdz.finder-atom-integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		934800211E0E06CB00C47386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "finder-extension/finder_extension.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "finder-extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdz.finder-atom-integration.finder-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		934800221E0E06CB00C47386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "finder-extension/finder_extension.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "finder-extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdz.finder-atom-integration.finder-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9348000F1E0E069000C47386 /* Build configuration list for PBXNativeTarget "Open in Atom for Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934800101E0E069000C47386 /* Debug */,
+				934800111E0E069000C47386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		934800201E0E06CB00C47386 /* Build configuration list for PBXNativeTarget "Open in Atom Finder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				934800211E0E06CB00C47386 /* Debug */,
+				934800221E0E06CB00C47386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9348FFFB1E0E069000C47386 /* Build configuration list for PBXProject "finder-atom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9348000D1E0E069000C47386 /* Debug */,
+				9348000E1E0E069000C47386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9348FFF81E0E069000C47386 /* Project object */;
+}
