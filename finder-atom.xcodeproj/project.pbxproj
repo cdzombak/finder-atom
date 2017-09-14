@@ -41,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		93449C431F6B0CE000619034 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		934800001E0E069000C47386 /* Open in Atom Finder Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Open in Atom Finder Extension.app"; path = "Open in Atom for Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		934800031E0E069000C47386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		934800051E0E069000C47386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		9348FFF71E0E069000C47386 = {
 			isa = PBXGroup;
 			children = (
+				93449C431F6B0CE000619034 /* README.md */,
 				934800021E0E069000C47386 /* finder-atom */,
 				934800171E0E06CB00C47386 /* finder-extension */,
 				934800011E0E069000C47386 /* Products */,
