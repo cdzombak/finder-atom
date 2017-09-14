@@ -11,7 +11,9 @@ import Cocoa
 class ViewController: NSViewController {
 
     @IBAction func openSystemPreferences(_ sender: AnyObject?) {
-        NSWorkspace.shared().open(URL(fileURLWithPath: "/System/Library/PreferencePanes/Extensions.prefPane"))
+        if !NSWorkspace.shared().open(URL(fileURLWithPath: "/System/Library/PreferencePanes/Extensions.prefPane")) {
+            NSLog("[Error] Failed to open Extensions preference pane")
+        }
     }
 
 }
